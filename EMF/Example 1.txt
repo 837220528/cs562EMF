@@ -1,0 +1,12 @@
+// SELECT ATTRIBUTE(S):
+cust,prod,month,max(x.quant)
+// NUMBER OF GROUPING VARIABLES(n):
+1
+// GROUPING ATTRIBUTES(V):
+cust,prod,month
+// F-VECT([F]):
+max(x.quant)
+// SELECT CONDITION-VECT([Sigma]):
+x.cust=cust and x.prod=prod
+// HAVING CONDITION(G):
+
